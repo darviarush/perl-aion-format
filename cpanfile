@@ -27,7 +27,9 @@ on 'test' => sub {
 	requires 'open';
 };
 
+# Для DDP
 requires 'Devel::Size';
+
 requires 'DDP';
 requires 'Encode';
 requires 'Exporter';

@@ -1,11 +1,11 @@
-[![Actions Status](https://github.com/darviarush/perl-aion-format/actions/workflows/test.yml/badge.svg)](https://github.com/darviarush/perl-aion-format/actions) [![MetaCPAN Release](https://badge.fury.io/pl/Aion-Format.svg)](https://metacpan.org/release/Aion-Format) [![Coverage](https://raw.githubusercontent.com/darviarush/perl-aion-format/master/doc/badges/total.svg)](https://fast2-matrix.cpantesters.org/?dist=Aion-Format+0.0.10)
+[![Actions Status](https://github.com/darviarush/perl-aion-format/actions/workflows/test.yml/badge.svg)](https://github.com/darviarush/perl-aion-format/actions) [![MetaCPAN Release](https://badge.fury.io/pl/Aion-Format.svg)](https://metacpan.org/release/Aion-Format) [![Coverage](https://raw.githubusercontent.com/darviarush/perl-aion-format/master/doc/badges/total.svg)](https://fast2-matrix.cpantesters.org/?dist=Aion-Format+0.1.0)
 # NAME
 
 Aion::Format - расширение Perl для форматирования чисел, раскрашивания вывода и т.п.
 
 # VERSION
 
-0.0.10
+0.1.0
 
 # SYNOPSIS
 
