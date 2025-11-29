@@ -414,7 +414,7 @@ __END__
 
 =head1 NAME
 
-Aion::Format is a Perl extension for formatting numbers, coloring output, etc.
+Aion::Format - a Perl extension for formatting numbers, coloring output, etc.
 
 =head1 VERSION
 

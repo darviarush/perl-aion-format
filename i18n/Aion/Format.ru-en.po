@@ -1,5 +1,5 @@
 msgid "Aion::Format - расширение Perl для форматирования чисел, раскрашивания вывода и т.п."
-msgstr "Aion::Format is a Perl extension for formatting numbers, coloring output, etc."
+msgstr "Aion::Format - a Perl extension for formatting numbers, coloring output, etc."
 
 msgid "Утилиты для форматирования чисел, раскрашивания вывода и т.п."
 msgstr "Utilities for formatting numbers, coloring output, etc."
