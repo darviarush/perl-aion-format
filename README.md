@@ -12,7 +12,7 @@ Aion::Format - расширение Perl для форматирования ч�
 ```perl
 use Aion::Format;
 
-trappout { print "123\n" } # => 123\n
+trappout { print "123\n" }  # => 123\n
 
 coloring "#red ↬ #r\n" # => \e[31m ↬ \e[0m\n
 trappout { printcolor "#red ↬ #r\n" } # => \e[31m ↬ \e[0m\n
