@@ -1,9 +1,9 @@
 package Aion::Format;
-use 5.22.0;
-no strict; no warnings; no diagnostics;
+# Библиотека форматирования и вывода
+
 use common::sense;
 
-our $VERSION = "0.1.0";
+our $VERSION = "0.1.1";
 
 require POSIX;
 require Term::ANSIColor;
@@ -418,7 +418,7 @@ Aion::Format - a Perl extension for formatting numbers, coloring output, etc.
 
 =head1 VERSION
 
-0.1.0
+0.1.1
 
 =head1 SYNOPSIS
 
