@@ -27,7 +27,7 @@ sub _extends_ddp_properties {
 		show_readonly => 1,
 		print_escapes => 1,
 		show_refcount => 1,
-		show_memsize => 1,
+		show_memsize => eval { require Devel::Size; 1 },
 		caller_info => 1,
 		#output => 'stdout',
 		unicode_charnames => 1,

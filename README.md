@@ -1,4 +1,4 @@
-[![Actions Status](https://github.com/darviarush/perl-aion-format/actions/workflows/test.yml/badge.svg)](https://github.com/darviarush/perl-aion-format/actions) [![MetaCPAN Release](https://badge.fury.io/pl/Aion-Format.svg)](https://metacpan.org/release/Aion-Format) [![Coverage](https://raw.githubusercontent.com/darviarush/perl-aion-format/master/doc/badges/total.svg)](https://fast2-matrix.cpantesters.org/?dist=Aion-Format+0.1.0)
+[![Actions Status](https://github.com/darviarush/perl-aion-format/actions/workflows/test.yml/badge.svg)](https://github.com/darviarush/perl-aion-format/actions) [![GitHub Issues](https://img.shields.io/github/issues/darviarush/perl-aion-format?logo=perl)](https://github.com/darviarush/perl-aion-format/issues) [![MetaCPAN Release](https://badge.fury.io/pl/Aion-Format.svg)](https://metacpan.org/release/Aion-Format) [![Coverage](https://raw.githubusercontent.com/darviarush/perl-aion-format/master/doc/badges/total.svg)](https://fast2-matrix.cpantesters.org/?dist=Aion-Format+0.1.0)
 # NAME
 
 Aion::Format - расширение Perl для форматирования чисел, раскрашивания вывода и т.п.
@@ -12,7 +12,7 @@ Aion::Format - расширение Perl для форматирования ч�
 ```perl
 use Aion::Format;
 
-trappout { print "123\n" }  # => 123\n
+trappout { print "123\n" } # => 123\n
 
 coloring "#red ↬ #r\n" # => \e[31m ↬ \e[0m\n
 trappout { printcolor "#red ↬ #r\n" } # => \e[31m ↬ \e[0m\n
