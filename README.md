@@ -1,11 +1,11 @@
-[![Actions Status](https://github.com/darviarush/perl-aion-format/actions/workflows/test.yml/badge.svg)](https://github.com/darviarush/perl-aion-format/actions) [![GitHub Issues](https://img.shields.io/github/issues/darviarush/perl-aion-format?logo=perl)](https://github.com/darviarush/perl-aion-format/issues) [![MetaCPAN Release](https://badge.fury.io/pl/Aion-Format.svg)](https://metacpan.org/release/Aion-Format) [![Coverage](https://raw.githubusercontent.com/darviarush/perl-aion-format/master/doc/badges/total.svg)](https://fast2-matrix.cpantesters.org/?dist=Aion-Format+0.1.1)
+[![Actions Status](https://github.com/darviarush/perl-aion-format/actions/workflows/test.yml/badge.svg)](https://github.com/darviarush/perl-aion-format/actions) [![GitHub Issues](https://img.shields.io/github/issues/darviarush/perl-aion-format?logo=perl)](https://github.com/darviarush/perl-aion-format/issues) [![MetaCPAN Release](https://badge.fury.io/pl/Aion-Format.svg)](https://metacpan.org/release/Aion-Format) [![Coverage](https://raw.githubusercontent.com/darviarush/perl-aion-format/master/doc/badges/total.svg)](https://fast2-matrix.cpantesters.org/?dist=Aion-Format+0.1.2)
 # NAME
 
 Aion::Format - расширение Perl для форматирования чисел, раскрашивания вывода и т.п.
 
 # VERSION
 
-0.1.1
+0.1.2
 
 # SYNOPSIS
 
@@ -332,7 +332,7 @@ transliterate "Мир во всём Мире!"  # => Mir vo vsjom Mire!
 
 Ловушка для **STDERR**.
 
-В случае ошибки в блоке `STDOUT` восстанавливается, а вывод в блоке – теряется.
+В случае ошибки в блоке **STDERR** восстанавливается, а вывод в блоке – теряется.
 
 ```perl
 trapperr { print STDERR "Stars: ✨" }  # => Stars: ✨
@@ -344,7 +344,7 @@ trapperr { print STDERR "Stars: ✨" }  # => Stars: ✨
 
 Ловушка для **STDOUT**.
 
-В случае ошибки в блоке `STDOUT` восстанавливается, а вывод в блоке – теряется.
+В случае ошибки в блоке **STDOUT** восстанавливается, а вывод в блоке – теряется.
 
 ```perl
 trappout { print "Stars: ✨" }  # => Stars: ✨
