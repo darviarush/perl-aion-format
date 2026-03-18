@@ -332,6 +332,8 @@ transliterate "Мир во всём Мире!"  # => Mir vo vsjom Mire!
 
 Ловушка для **STDERR**.
 
+В случае ошибки в блоке **STDERR** восстанавливается, а вывод в блоке – теряется.
+
 ```perl
 trapperr { print STDERR "Stars: ✨" }  # => Stars: ✨
 ```
@@ -342,8 +344,11 @@ trapperr { print STDERR "Stars: ✨" }  # => Stars: ✨
 
 Ловушка для **STDOUT**.
 
+В случае ошибки в блоке **STDOUT** восстанавливается, а вывод в блоке – теряется.
+
 ```perl
 trappout { print "Stars: ✨" }  # => Stars: ✨
+trappout { print "Stars: ✨"; die "error" }  # @=> error
 ```
 
 См. также `IO::Capture::Stdout`.
